@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="center-flex">
+        <div class="center-item">
+            <header>
+                <h1>Sua Senha</h1>
+            </header>    
+            <form role="form" action="pagina.html" method="GET">
+                <div class="form-group">
+                    <label for="senha">Digite uma senha:</label>
+                    <input type="tel" class="form-control" maxlength="3" id="senha" name="senha" required/>
+                </div>
+                <input type="hidden" name="hora-senha" class="hora-senha" value="" />
+                <button type="button" class="btn btn-info gera-senha">Retirar item senha unico</button>
+                <button type="submit" class="btn btn-success">Continuar</button>
+            </form>
+        </div>
+    </div>
+    </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.3.0/url-tld.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>

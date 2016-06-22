@@ -1,0 +1,40 @@
+body {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    background: #fefefe;
+    color: #222;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-item {
+    max-width: 95%;
+    flex: 1;
+}
+
+.form-control {
+    height: auto;
+    font-size: 45px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.sua-vez {
+    background: #4CAF50;
+    color: #FFF;
+    text-align: center;
+}
